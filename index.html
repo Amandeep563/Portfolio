@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" type="image/png" href="imgs/logo.png">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Nav Bar -->
+     <nav>
+        <div class="left">
+            <a href="/">Aman Deep</a>
+        </div>
+        <div class="right">
+            <a href="https://github.com/Amandeep563" target="_blank">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/amandeep-bollampalli/" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:amandeepbollampalli@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+        </div>
+     </nav>
+    
+
+    <main>
+        <!-- SECTION 1: HERO -->
+    <section class="hero-section">
+        <div class="text">
+            <h2>Hi, I'm Aman 👋</h2>
+            <p>Hello! I'm Amandeep, currently pursuing a B.Com degree with a strong passion for web development. My goal is to become a full-stack developer, and I'm dedicated to achieving this dream.
+
+                Thank you for visiting my portfolio!</p>
+            <div class="links">
+                <a href="#skills">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Skills</span>
+                </a>
+
+                <a href="#about">
+                    <i class="fa-solid fa-address-card"></i>
+                    <span>About</span>
+                </a>
+
+                <a href="#contact">
+                    <i class="fa-solid fa-address-book"></i>
+                    <span>Contact</span>
+                </a>
+            </div>
+        </div>
+        <div class="headshot">
+            <img src="imgs/profile-pic.png" alt="My profile pica">
+        </div>
+    </section>
+
+        <!-- SECTION 2: SKILLS -->
+    <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">I have a strong foundation in web development and programming. Over time, I've honed my abilities in various languages and frameworks, allowing me to create effective and efficient web solutions. Here’s a detailed look at my skills:</div>
+
+        <div class="cells">
+            <div class="cell">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML</span>
+            </div>
+            <div class="cell">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS</span>
+            </div>
+            <div class="cell">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+            </div>
+            <div class="cell">
+                <i class="fa-brands fa-react"></i>
+                <span>React</span>
+            </div>
+            <div class="cell">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+            </div>
+        </div>
+    </section>
+
+        <!-- SECTION 3: ABOUT -->
+    <section id="about" class="about-section">
+        <h2>About</h2>
+        <p class="about-text">Hello! I'm Amandeep, a driven and enthusiastic individual currently pursuing a B.Com degree. My ultimate goal is to become a skilled full-stack developer, and I'm passionate about achieving this dream.
+
+            From a young age, I've always been fascinated by technology and how it shapes our world. This curiosity led me to the realm of web development, where I found my true calling. Coding isn't just a skill for me; it's a craft that I continually strive to master. I enjoy the challenges and problem-solving aspects of development, and there's nothing more satisfying than seeing my code come to life on the screen.</p>
+
+    </section>
+
+        <!-- SECTION 4: contact -->
+    <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+            <div class="text">
+                I'm always excited to connect with new people, collaborate on projects, and explore new opportunities. Whether you have a question, a project idea, or just want to say hello, feel free to get in touch!
+            </div>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="acfbf420-7f89-4331-85ca-85b46629c081">
+
+
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" cols="30" rows="10" name="message"></textarea>
+
+                <button type="submit">Send Message</button>
+
+            </form>
+        </div>
+    </section>
+    
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
